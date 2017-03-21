@@ -1,0 +1,29 @@
+body{
+    margin:0;
+}
+header{
+    padding-left: 50px;
+}
+nav button{
+    margin: 50px 100px;
+    padding: 25px;
+    font-size: 18px;
+}
+section{
+    width: 1440px;
+    height: 800px;
+}
+
+#samecolor > div{
+    float: left;
+    width: 25%;
+    height: inherit;
+    background-color: #888888;
+}
+
+#diffcolor > div{
+    float: left;
+    width: 12.5%;
+    height: inherit;
+    background-color: #555555;
+}
