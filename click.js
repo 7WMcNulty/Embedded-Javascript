@@ -10,5 +10,14 @@ function samecolor(){
 }
 //declare diffcolor() here
 function diffcolor(){
-  #0000ff
+  const doc = document;
+  let divs = doc.querySelectorAll("#diffcolor > div");
+  for(var i=0; i<divs.length; i++){
+      if(i%2 == 0){
+          divs[i].style.backgroundColor = "#0000ff";
+      }
+      else{
+          divs[i].style.backgroundColor = "#ffff00";
+      }
+  }
 }
