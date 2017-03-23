@@ -25,3 +25,12 @@ function phoneSize(){
         sections[i].style.width = width;
     }
 }
+/*
+function tabletSize(){
+  const doc = document;
+  let sections = doc.querySelectorAll("section");
+  for(var i=0; i<sections.length; i++){
+    sections[i].style.width *= 0.75;
+    sections[i].style.height *= 0.75;
+  }
+}*/
